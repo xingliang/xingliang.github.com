@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://xingliang.github.io/atom.xml" rel="self"/>
-  <link href="http://xingliang.github.io/"/>
-  <updated>2014-07-24T23:02:22+08:00</updated>
-  <id>http://xingliang.github.io/</id>
+  <title><![CDATA[扫地僧]]></title>
+  <link href="http://xingliang.github.com/atom.xml" rel="self"/>
+  <link href="http://xingliang.github.com/"/>
+  <updated>2014-07-24T23:39:10+08:00</updated>
+  <id>http://xingliang.github.com/</id>
   <author>
     <name><![CDATA[Xingliang Ni]]></name>
     <email><![CDATA[xingliang.ni@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GBDT]]></title>
+    <link href="http://xingliang.github.com/blog/2014/07/24/gbdt/"/>
+    <updated>2014-07-24T23:15:27+08:00</updated>
+    <id>http://xingliang.github.com/blog/2014/07/24/gbdt</id>
+    <content type="html"><![CDATA[<h1>梯度boosting</h1>
+
+<p>以点击率预估为例，与前一章的逻辑回归模型相同，我们可以采集到一系列训练样本T={(x_1,y_1 ),(x_2,y_2 ),⋯,(x_N,y_N )}。基于这个训练样本集T，我们想要估计一个从x到y的映射，使得对于新的x可以计算出其对应的y值。Boosting方法其实是一类方法的总成，boosting方法解决这个问题的基本思想是，通过一系列弱学习器的组合，来不断逼近真实的从x到y的映射函数，Boosting方法的预测函数形式如下：
+F(x)=∑<em>(m=0)<sup>M</sup>▒〖α</em>mh(x;θ<em>m)〗
+这里的h(x;θ)被称为基学习器，θ是函数h的参数。通常的boosting方法会选择一些比较简单的函数作为基学习器，因此h(x;θ)有时又被称为弱学习器。Boosting方法采用一种不断递进的方式，从一个初始函数F_0 (x)出发，每一轮以如下方式选择一个最优的α</em>m和θ_m，</p>
+]]></content>
+  </entry>
   
 </feed>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://xingliang.github.io/sitemap.xml 
+Sitemap: http://xingliang.github.com/sitemap.xml 
