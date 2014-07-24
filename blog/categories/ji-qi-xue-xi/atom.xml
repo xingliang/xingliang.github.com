@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[扫地僧]]></title>
-  <link href="http://xingliang.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 机器学习 | 扫地僧]]></title>
+  <link href="http://xingliang.github.com/blog/categories/ji-qi-xue-xi/atom.xml" rel="self"/>
   <link href="http://xingliang.github.com/"/>
   <updated>2014-07-24T23:48:04+08:00</updated>
   <id>http://xingliang.github.com/</id>
